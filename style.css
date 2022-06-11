@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  background-color: seashell;
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin: 0 auto;
+}
+form > input {
+  border: none;
+  border: rgb(244, 108, 108) solid 3px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  font-size: large;
+  outline-style: none;
+}
+form > p {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+form > input:not(input[type="submit"]) {
+  background-color: seashell;
+}
+
+body > p {
+  width: 80vw;
+  margin: auto;
+  line-height: 2rem;
+}
+.warning {
+  background-color: crimson;
+  padding: 15px 50px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-stretch: expanded;
+  margin-top: 10px;
+  border-radius: 2px;
+  line-height: 2rem;
+}
